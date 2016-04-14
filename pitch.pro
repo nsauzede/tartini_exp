@@ -414,7 +414,8 @@ debug{
   DEFINES += MYDEBUG
 }
 
-QT +=  opengl qt3support 
+#QT +=  opengl qt3support
+QT +=  opengl
 CONFIG += uic
 
 UI_DIR = dialogs

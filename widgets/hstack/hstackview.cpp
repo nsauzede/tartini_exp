@@ -66,7 +66,7 @@ HStackView::HStackView( int p_view_id
     l_db_range_wheel->setRange(5, 160.0, 0.1, 100);
 #endif // QWT_VERSION >= 0x060000
     l_db_range_wheel->setValue(100);
-    QToolTip::add(l_db_range_wheel, "Zoom dB range vertically");
+    l_db_range_wheel->setToolTip("Zoom dB range vertically");
     l_right_layout->addWidget(l_db_range_wheel, 0);
     l_right_layout->addStretch(2);
 
@@ -82,7 +82,7 @@ HStackView::HStackView( int p_view_id
     l_window_size_wheel->setRange(32, 1024, 2, 1);
 #endif // QWT_VERSION >= 0x060000
     l_window_size_wheel->setValue(128);
-    QToolTip::add(l_window_size_wheel, "Zoom windowsize horizontally");
+    l_window_size_wheel->setToolTip("Zoom windowsize horizontally");
     l_bottom_layout->addWidget(l_window_size_wheel, 0);
     l_bottom_layout->addStretch(2);
 

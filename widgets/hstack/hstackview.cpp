@@ -108,4 +108,9 @@ QSize HStackView::sizeHint(void) const
     return QSize(300, 200);
 }
 
+//------------------------------------------------------------------------------
+void HStackView::resizeEvent(QResizeEvent *)
+{
+  m_h_stack_widget->resize(size());
+}
 // EOF

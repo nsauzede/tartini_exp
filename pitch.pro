@@ -327,7 +327,7 @@ unix{
     INCLUDEPATH += $$MY_INCLUDE_PATH
     LIBS += -framework CoreAudio $$MY_LIB_PATH -lfftw3f -lqwt
     # -framework CoreFoundation -framework ApplicationServices -framework CoreData -framework System -framework Carbon -framework CoreServices -framework AppKit -framework AGL -framework Quartz -framework Foundation
-    RC_FILE = icons/pitch.icns
+    #RC_FILE = icons/pitch.icns
     DEFINES += MACX
     DEFINES += __MACOSX_CORE__
 

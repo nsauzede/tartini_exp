@@ -34,6 +34,7 @@ if("${PC_QWT}" STREQUAL "")
     set(QWT_PATHS
         /usr
         /usr/local/
+        /usr/local/Cellar
         /usr/local/share/
         /usr/share/
        )

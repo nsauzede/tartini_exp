@@ -325,7 +325,7 @@ unix{
 
     QMAKE_LFLAGS_SONAME = -W1,-install_name,@executable_path/..Frameworks/
     INCLUDEPATH += $$MY_INCLUDE_PATH
-    LIBS += -framework CoreAudio $$MY_LIB_PATH -lfftw3f -lqwt
+    LIBS += -framework CoreAudio $$MY_LIB_PATH -lfftw3f -framework qwt
     # -framework CoreFoundation -framework ApplicationServices -framework CoreData -framework System -framework Carbon -framework CoreServices -framework AppKit -framework AGL -framework Quartz -framework Foundation
     #RC_FILE = icons/pitch.icns
     DEFINES += MACX
